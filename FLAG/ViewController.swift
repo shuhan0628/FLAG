@@ -61,18 +61,6 @@ class ViewController: UIViewController {
                 starAmount -= 1
                 }
         }
-        let starXPitch = 11.394
-        let starYPitch = 9.684
-        for v in 0 ... 4 {
-            for h in 0 ... 5 {
-                redArea.addSubview(starView(5.854 + starXPitch * Double(h*2), 4.144 + starYPitch * Double(v*2)))
-            }
-        }
-        for v in 0 ... 3 {
-            for h in 0 ... 4 {
-                redArea.addSubview(starView(17.248 + starXPitch * Double(h*2), 13.828 + starYPitch * Double(v*2)))
-            }
-        }
     }
 }
 #Preview {
